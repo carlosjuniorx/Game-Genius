@@ -43,7 +43,7 @@ const actionPc=(color, time)=>{
     },time-250)
     setTimeout(()=>{
         color.classList.remove('selected')
-    },time+300)
+    },time+100)
 
 }
 
