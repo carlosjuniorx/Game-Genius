@@ -38,9 +38,8 @@ const pcplaying = ()=>{
 const actionPc=(color, time)=>{
     time=time*800
     setTimeout(()=>{
-        playmusica(color)
         color.classList.add('selected')
-        console.log(color)
+        playmusica(color)
     },time-250)
     setTimeout(()=>{
         color.classList.remove('selected')
