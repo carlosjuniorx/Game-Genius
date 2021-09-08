@@ -43,7 +43,7 @@ const actionPc=(color, time)=>{
     },time-250)
     setTimeout(()=>{
         color.classList.remove('selected')
-    },time+100)
+    },time+250)
 
 }
 
@@ -53,7 +53,7 @@ const actionPlayer = (color)=>{
     playmusica(numberToColor(color))
     setTimeout(()=>{
         numberToColor(color).classList.remove('selected')
-    },250)
+    },450)
     checkedPlay()
 }
 const numberToColor= (num)=>{
